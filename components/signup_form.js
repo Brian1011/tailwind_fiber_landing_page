@@ -80,8 +80,18 @@ export default function SignupForm() {
         </div>
         {/* 2nd div logo*/}
         <div className="hidden md:flex items-center bg-blue-800 min-h-full md:w-1/2 px-8">
-          <div className="">
-            <Image src={signUpImage} alt="image" />
+          <div>
+            <div className="">
+              <Image src={signUpImage} alt="image" />
+            </div>
+
+            <div className="py-6">
+              <div className="text-3xl text-white">Unparalleled Templates</div>
+              <div className="text-white">
+                Crafted by a team of professional designers, our templates are
+                unparalleled in the market
+              </div>
+            </div>
           </div>
         </div>
       </div>
