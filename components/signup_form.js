@@ -76,7 +76,6 @@ export default function SignupForm() {
                 <span className="text-blue-800 pl-2">Sign In</span>
               </div>
             </div>
-            <div className="md:max-w-xl"></div>
           </div>
         </div>
         {/* 2nd div logo*/}
