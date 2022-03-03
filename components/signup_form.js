@@ -9,8 +9,8 @@ export default function SignupForm() {
     <div className="">
       <div className="flex min-w-full h-screen">
         {/*1st div */}
-        <div className="px-8 md:w-1/2 flex flex-col">
-          <div className="grid grid-cols-1 content-center">
+        <div className="px-8 md:w-1/2 flex flex-col self-center items-center">
+          <div className="">
             <div className="text-lg font-medium py-6">Fiber</div>
             <div className="text-4xl font-bold py-2">
               Create your Fiber account
@@ -76,6 +76,7 @@ export default function SignupForm() {
                 <span className="text-blue-800 pl-2">Sign In</span>
               </div>
             </div>
+            <div className="md:max-w-xl"></div>
           </div>
         </div>
         {/* 2nd div logo*/}
